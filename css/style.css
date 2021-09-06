@@ -44,7 +44,13 @@ header img {
     margin-bottom: 0.5rem;
     background-position: center;
     border-radius: 5px;
-    
+    background-color:lightgray;
+    background-blend-mode: multiply;
+}
+
+.slideshow div {
+    background-color: rgba(0,0,0,0.2);
+    height: 100%;
 }
 
 
