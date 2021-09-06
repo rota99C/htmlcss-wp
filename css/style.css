@@ -49,10 +49,31 @@ header img {
 }
 
 .slideshow div {
-    background-color: rgba(0,0,0,0.2);
     height: 100%;
+    vertical-align: bottom;
 }
 
+.titolo-header, .titolo-header2 {
+    color: white;
+}
+
+.titolo-header {
+    padding-top: 120px;
+    padding-left: 25px;
+    font-size: 10px;
+}
+
+.titolo-header2 {
+    font-size: 8px;
+}
+
+#leadership {
+    font-size: 18px;
+}
+
+#sotto-leadership {
+    font-size: 8px;
+}
 
 
 .sopra-contenitore {
