@@ -7,7 +7,7 @@
 
 body {
     margin: auto;
-    width: 480px;
+    width: 1200px;
 }
 
 /* inizio header */
@@ -17,16 +17,16 @@ header {
 }
 
 .nav-homepage {
-    margin-top: 5px;
+    margin: 1rem 0;
+    font-size: 0.85rem;
 }
 
 header img {
-    height: 50%;
+    height: 50px;
 }
 
 .nav-homepage li {
     display: inline;
-    font-size: 8px;
     margin-right: 3px;
     color: #B2B2B2;
 }
@@ -35,10 +35,14 @@ header img {
 
 /* main */
 
+main {
+    margin-top: 2rem;
+}
+
 
 
 .slideshow{
-    height: 200px;
+    height: 400px;
     background-image: url(../img/banner.jpg);
     background-size:cover;
     margin-bottom: 0.5rem;
@@ -53,33 +57,40 @@ header img {
     vertical-align: bottom;
 }
 
-.titolo-header, .titolo-header2 {
+.titolo {
     color: white;
+    padding-top: 300px;
+    padding-left: 25px;
+
+
+}
+
+.titolo-header, .titolo-header2 {
+   
 }
 
 .titolo-header {
-    padding-top: 120px;
-    padding-left: 25px;
-    font-size: 10px;
+   
 }
 
 .titolo-header2 {
-    font-size: 8px;
+
 }
 
 #leadership {
-    font-size: 18px;
+
 }
+    
 
 #sotto-leadership {
-    font-size: 8px;
+    
 }
 
 
 .sopra-contenitore {
     height: 50px;
-    background-color: #ABCFE7;
-    margin-bottom: 0;
+    background-color: white;
+    margin-top: 20px;
 }
 
 .colonne {
